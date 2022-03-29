@@ -101,6 +101,6 @@ function Solve(){
 function Reset(){
     location.reload();
 }
-//function Open_Github(){
-    //window.open(,"_blank");
-//}
+function Open_Github(){
+    window.open("https://github.com/abhishek8173/Sudoku-Solver","_blank");
+}
