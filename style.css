@@ -1,0 +1,118 @@
+body {
+  background: lightblue;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  height: 0;
+  /*padding-right: 95px;*/
+  padding-bottom: 100%;
+  position: relative;
+  margin: auto;
+}
+.grid-item {
+  /*border: 1px solid black;*/
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+.sub-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  width: 98%;
+  height: 0;
+  padding-bottom: 99%;
+  margin: auto;
+}
+.num {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  appearance: none;
+  font-size: 3em;
+}
+#Solve_btn {
+  color: rgb(44, 99, 39);
+  border: 0px;
+  font-size: 140%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  background: rgb(0, 209, 70);
+  padding: 5px;
+  width: 20%;
+  margin-right: 30%;
+}
+#Solve_btn:hover {
+  color: darkturquoise;
+  background: darkslateblue;
+}
+#Solve_btn:active {
+  transform: translateY(2px);
+}
+#Reset_btn {
+  color: darkred;
+  border: 0px;
+  font-size: 140%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  background: burlywood;
+  padding: 5px;
+  width: 20%;
+  margin-left: 29%;
+}
+#Reset_btn:hover {
+  color: burlywood;
+  background: darkred;
+}
+#Reset_btn:active {
+  transform: translateY(2px);
+}
+.buttons {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 5%;
+  width: 91%;
+  margin: auto;
+}
+#head {
+  text-align: left;
+  font-size: 400%;
+  color: aquamarine;
+  background: darkslateblue;
+  width: 100%;
+  padding: 5% 0 5% 5%;
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+}
+#src_lnk {
+  width: 100%;
+  text-align: center;
+  background: red;
+  font-weight: bold;
+  color: azure;
+  padding: 1% 0 1% 1%;
+  font-size: 105%;
+  margin: 0 0 10% 0;
+}
+#src_lnk:hover {
+  background: darkred;
+}
+.myName {
+  text-align: right;
+  font-style: oblique;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background: aliceblue;
+}
